@@ -14,8 +14,7 @@ public class GoogleConfig {
 	public RouteLocator googleRouteConfig(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route(r -> r.path("/search")
-						.uri("https://www.google.com")
-						)
+				.uri("https://www.google.com"))
 				.build();
 	}
 }
